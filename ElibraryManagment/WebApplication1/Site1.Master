@@ -71,12 +71,10 @@
             <asp:LinkButton class="nav-link" ID="LinkButton7" runat="server">Hello user</asp:LinkButton>
         </li>
     </ul>
+    </div>
+    </nav>
 </div>
-
-
-                <!-- End Navbar -->
-            </nav>
-        </div>
+        <!-- End Navbar -->
 
         <!-- Main Content Placeholder -->
         <div>
