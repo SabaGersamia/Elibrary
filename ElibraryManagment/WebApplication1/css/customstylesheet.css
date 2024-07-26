@@ -14,13 +14,3 @@
 #footer2 {
     background: #531f00
 }
-.custom-btn {
-    width: 100%; /* Make the button width 100% of its container */
-    max-width: 300px; /* Optional: Set a maximum width for the button */
-    padding: 12px 20px; /* Adjust padding as needed */
-    font-size: 1.5rem; /* Adjust font size */
-    text-align: center; /* Center align text */
-    display: block; /* Ensure it's displayed as a block element */
-    margin: 0 auto; /* Center align horizontally */
-    box-sizing: border-box; /* Include padding and border in total width */
-}

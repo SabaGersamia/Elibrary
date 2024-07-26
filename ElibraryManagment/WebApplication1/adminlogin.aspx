@@ -1,5 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="adminlogin.aspx.cs" Inherits="WebApplication1.adminlogin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+<style>
+    .centered-container {
+        margin: 0 auto;
+        max-width: 400px; 
+    }
+</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
        <div class="container">
@@ -50,10 +57,10 @@
                        
                </div>
            </div>
-               <a href="homepage.aspx"><< Back To Home</a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+               <a href="homepage.aspx"><< Back To Home</a><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     </div>
-    <br /><br />
+    <br /><br /><br />
 </div>
 
 
