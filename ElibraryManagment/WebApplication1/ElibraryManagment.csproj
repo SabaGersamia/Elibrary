@@ -68,8 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="adminauthor.aspx" />
+    <Content Include="adminbookinventory.aspx" />
     <Content Include="adminlogin.aspx" />
+    <Content Include="adminmember.aspx" />
     <Content Include="adminpublisher.aspx" />
+    <Content Include="bookissuing.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
@@ -2191,6 +2194,13 @@
     <Compile Include="adminauthor.aspx.designer.cs">
       <DependentUpon>adminauthor.aspx</DependentUpon>
     </Compile>
+    <Compile Include="adminbookinventory.aspx.cs">
+      <DependentUpon>adminbookinventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminbookinventory.aspx.designer.cs">
+      <DependentUpon>adminbookinventory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminlogin.aspx.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2198,12 +2208,26 @@
     <Compile Include="adminlogin.aspx.designer.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="adminmember.aspx.cs">
+      <DependentUpon>adminmember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminmember.aspx.designer.cs">
+      <DependentUpon>adminmember.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminpublisher.aspx.cs">
       <DependentUpon>adminpublisher.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="adminpublisher.aspx.designer.cs">
       <DependentUpon>adminpublisher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bookissuing.aspx.cs">
+      <DependentUpon>bookissuing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bookissuing.aspx.designer.cs">
+      <DependentUpon>bookissuing.aspx</DependentUpon>
     </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
