@@ -6,6 +6,11 @@
             margin: 0 auto;
             max-width: 600px; 
         }
+        .col-xs-12 {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 10px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -94,29 +99,23 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <label>User ID</label>
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox8" runat="server" placeholder="User ID" ReadOnly="True"></asp:TextBox>
+                                    <asp:TextBox CssClass="form-control" ID="TextBox8" runat="server" placeholder="User ID"></asp:TextBox>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <label>Password</label>
                                 <div class="form-group">
                                     <asp:TextBox CssClass="form-control" ID="TextBox9" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <label>Re-enter Password</label>
-                                <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox10" runat="server" placeholder="Re-enter Password" TextMode="Password"></asp:TextBox>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-8 mx-auto">
                                 <div class="form-group">
-                                    <asp:Button CssClass="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Sign Up" />
+                                    <asp:Button CssClass="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Sign Up" OnClick="Button1_Click" />
                                 </div>
                             </div>
                         </div>
@@ -129,6 +128,6 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br><br />
+        <br><br><br><br><br><br><br><br>
     </div>
 </asp:Content>

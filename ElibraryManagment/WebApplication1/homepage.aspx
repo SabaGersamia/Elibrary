@@ -2,10 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />--%>
     <style>
-      .col-xs-12, .col-sm-12, .col-md-12 {
-    background-color: #2c3e50; /* Example color - Dark gray-blue */
-    color: #ffffff; /* Ensure text color contrasts well with the background */
-    padding: 10px; /* Optional: Add padding for spacing */
+        .col-xs-12 {
+            background-color: #2c3e50; 
+            color: #ffffff;
+            padding: 10px; 
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

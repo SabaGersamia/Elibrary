@@ -63,13 +63,13 @@
                             <asp:LinkButton class="nav-link" ID="LinkButton2" runat="server" href="usersignup.aspx">Sign Up</asp:LinkButton>
                         </li>
                         <li class="nav-item active">
-                            <asp:LinkButton class="nav-link" ID="LinkButton4" runat="server">View Books</asp:LinkButton>
+                            <asp:LinkButton class="nav-link" ID="LinkButton4" runat="server" href="viewbooks.aspx">View Books</asp:LinkButton>
                         </li>
                         <li class="nav-item active">
-                            <asp:LinkButton class="nav-link" ID="LinkButton3" runat="server">Logout</asp:LinkButton>
+                            <asp:LinkButton class="nav-link" ID="LinkButton3" runat="server" Visible="False">Logout</asp:LinkButton>
                         </li>
                         <li class="nav-item active">
-                            <asp:LinkButton class="nav-link" ID="LinkButton7" runat="server" href="userprofile.aspx">Hello user</asp:LinkButton>
+                            <asp:LinkButton class="nav-link" ID="LinkButton7" runat="server" Visible="False">Hello user</asp:LinkButton>
                         </li>
                     </ul>
                 </div>
@@ -92,15 +92,15 @@
                         <p>
                             <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server" href="adminlogin.aspx">Admin Login</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server" href="adminauthor.aspx">Author Management</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server" href="adminauthor.aspx" Visible="False">Author Management</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton12" runat="server" href="adminpublisher.aspx">Publisher Management</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton12" runat="server" href="adminpublisher.aspx" Visible="False">Publisher Management</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server" href="adminbookinventory.aspx">Book Inventory</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server" href="adminbookinventory.aspx" Visible="False">Book Inventory</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server" href="bookissuing.aspx">Book Issuing</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server" href="bookissuing.aspx" Visible="False">Book Issuing</asp:LinkButton>
                             &nbsp;
-                             <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server" href="adminmember.aspx">Member Management</asp:LinkButton>
+                             <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server" href="adminmember.aspx" Visible="False">Member Management</asp:LinkButton>
                         </p>
 
                     </div>

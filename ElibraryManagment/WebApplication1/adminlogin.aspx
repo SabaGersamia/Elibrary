@@ -4,7 +4,13 @@
 <style>
     .centered-container {
         margin: 0 auto;
-        max-width: 400px; 
+        max-width: 400px;
+    }
+        
+    .col-xs-12 {
+        background-color: #2c3e50; 
+        color: #ffffff;
+        padding: 10px; 
     }
 </style>
 </asp:Content>
@@ -60,7 +66,7 @@
                <a href="homepage.aspx"><< Back To Home</a><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     </div>
-    <br /><br /><br />
+    <br /><br />
 </div>
 
 
