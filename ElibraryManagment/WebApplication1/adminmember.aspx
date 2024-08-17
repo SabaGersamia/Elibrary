@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="adminmember.aspx.cs" Inherits="WebApplication1.adminmember" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script type="text/javascript">
+      $(document).ready(function () {
+          $(".table").prepend($("<thead></thead>").append($(this).find("tr:first"))).dataTable();
+      });
+    </script>
     <style>
     .col-xs-12 {
         background-color: #2c3e50; 
@@ -103,7 +108,7 @@
                   </div>
                   <div class="row">
                      <div class="col-8 mx-auto">
-                        <asp:Button ID="Button2" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete User Permanently" />
+                        <asp:Button ID="Button2" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete User Permanently" OnClick="Button2_Click" />
                      </div>
                   </div>
                </div>
@@ -127,8 +132,18 @@
                      </div>
                   </div>
                   <div class="row">
+                      <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ElibraryDBConnectionString %>" SelectCommand="SELECT * FROM [member_master_tbl]"></asp:SqlDataSource>
                      <div class="col">
-                        <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server"></asp:GridView>
+                        <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server" DataSourceID="SqlDataSource1">
+                            <Columns>
+                              <asp:BoundField DataField="member_id" HeaderText="ID" ReadOnly="True" SortExpression="member_id" />
+                              <asp:BoundField DataField="full_name" HeaderText="Name" SortExpression="full_name" />
+                              <asp:BoundField DataField="account_status" HeaderText="Account Status" SortExpression="account_status" />
+                              <asp:BoundField DataField="email" HeaderText="Email ID" SortExpression="email" />
+                              <asp:BoundField DataField="state" HeaderText="State" SortExpression="state" />
+                              <asp:BoundField DataField="city" HeaderText="City" SortExpression="city" />
+                           </Columns>
+                        </asp:GridView>
                      </div>
                   </div>
                </div>
