@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+
 
 namespace WebApplication1
 {
@@ -75,7 +76,7 @@ namespace WebApplication1
                     con.Open();
                 }
 
-                SqlCommand cmd = new SqlCommand("SELECT * from publisher_master_table where publisher_id='" + TextBox1.Text.Trim() + "';", con);
+                SqlCommand cmd = new SqlCommand("SELECT * from publisher_master_tbl where publisher_id='" + TextBox1.Text.Trim() + "';", con);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -108,7 +109,7 @@ namespace WebApplication1
                     con.Open();
                 }
 
-                SqlCommand cmd = new SqlCommand("SELECT * from publisher_master_table where publisher_id='" + TextBox1.Text.Trim() + "';", con);
+                SqlCommand cmd = new SqlCommand("SELECT * from publisher_master_tbl where publisher_id='" + TextBox1.Text.Trim() + "';", con);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -141,7 +142,7 @@ namespace WebApplication1
                     con.Open();
                 }
 
-                SqlCommand cmd = new SqlCommand("INSERT INTO publisher_master_table(publisher_id,publisher_name) values(@publisher_id,@publisher_name)", con);
+                SqlCommand cmd = new SqlCommand("INSERT INTO publisher_master_tbl(publisher_id,publisher_name) values(@publisher_id,@publisher_name)", con);
 
                 cmd.Parameters.AddWithValue("@publisher_id", TextBox1.Text.Trim());
                 cmd.Parameters.AddWithValue("@publisher_name", TextBox2.Text.Trim());
@@ -170,7 +171,7 @@ namespace WebApplication1
                 }
 
 
-                SqlCommand cmd = new SqlCommand("update publisher_master_table set publisher_name=@publisher_name WHERE publisher_id='" + TextBox1.Text.Trim() + "'", con);
+                SqlCommand cmd = new SqlCommand("update publisher_master_tbl set publisher_name=@publisher_name WHERE publisher_id='" + TextBox1.Text.Trim() + "'", con);
                 cmd.Parameters.AddWithValue("@publisher_name", TextBox2.Text.Trim());
                 int result = cmd.ExecuteNonQuery();
                 con.Close();
@@ -203,7 +204,7 @@ namespace WebApplication1
                 }
 
 
-                SqlCommand cmd = new SqlCommand("Delete from publisher_master_table WHERE publisher_id='" + TextBox1.Text.Trim() + "'", con);
+                SqlCommand cmd = new SqlCommand("Delete from publisher_master_tbl WHERE publisher_id='" + TextBox1.Text.Trim() + "'", con);
                 int result = cmd.ExecuteNonQuery();
                 con.Close();
                 if (result > 0)
@@ -223,6 +224,7 @@ namespace WebApplication1
                 Response.Write("<script>alert('" + ex.Message + "');</script>");
             }
         }
+
 
     }
 }

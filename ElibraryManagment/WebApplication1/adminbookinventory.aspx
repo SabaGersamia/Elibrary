@@ -1,6 +1,24 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="adminbookinventory.aspx.cs" Inherits="WebApplication1.adminbookinventory" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script type="text/javascript">
+       $(document).ready(function () {
+           $(".table").prepend($("<thead></thead>").append($(this).find("tr:first"))).dataTable();
+       });
+
+       function readURL(input) {
+           if (input.files && input.files[0]) {
+               var reader = new FileReader();
+
+               reader.onload = function (e) {
+                   $('#imgview').attr('src', e.target.result);
+               };
+
+               reader.readAsDataURL(input.files[0]);
+           }
+       }
+
+    </script>
     <style>
         .col-xs-12 {
             background-color: #2c3e50;
@@ -25,7 +43,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <img width="100px" src="imgs/books.png" />
+                                    <img id="imgview" width="100px" height="140px" src="imgs/books.png" />
                                 </center>
                             </div>
                         </div>
@@ -36,7 +54,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <asp:FileUpload Class="form-control" runat="server"></asp:FileUpload>
+                                <asp:FileUpload onchange="readURL(this);" Class="form-control" ID="FileUpload1" runat="server"></asp:FileUpload>
                             </div>
                         </div>
                         <div class="row">
@@ -60,7 +78,7 @@
                             <div class="col-md-4">
                                 <label>Language</label>
                                 <div class="form-group">
-                                    <asp:DropDownList class="form-control" runat="server">
+                                    <asp:DropDownList class="form-control" runat="server" ID="DropDownList1">
                                         <asp:ListItem Text="English" Value="English" />
                                         <asp:ListItem Text="Georgian" Value="Georgian" />
                                         <asp:ListItem Text="Polish" Value="Polish" />
@@ -70,7 +88,7 @@
                                 </div>
                                 <label>Publisher Name</label>
                                     <div class="form-group">
-                                        <asp:DropDownList class="form-control" runat="server">
+                                        <asp:DropDownList class="form-control" runat="server" ID="DropDownList2">
                                             <asp:ListItem Text="Publisher 1" Value="Publisher 1" />
                                             <asp:ListItem Text="Publisher 2" Value="Publisher 2" />
                                         </asp:DropDownList>
@@ -79,7 +97,7 @@
                             <div class="col-md-4">
                                 <label>Auther Name</label>
                                 <div class="form-group">
-                                    <asp:DropDownList class="form-control" runat="server">
+                                    <asp:DropDownList class="form-control" runat="server" ID="DropDownList3">
                                         <asp:ListItem Text="A1" Value="A1" />
                                         <asp:ListItem Text="A2" Value="A2" />
                                     </asp:DropDownList>
@@ -176,13 +194,13 @@
                         </div>
                         <div class="row">
                             <div class="col-4">
-                                <asp:Button ID="Button1" class="btn btn-lg btn-block btn-success" runat="server" Text="Add" />
+                                <asp:Button ID="Button1" class="btn btn-lg btn-block btn-success" runat="server" Text="Add" OnClick="Button1_Click" />
                      </div>
                      <div class="col-4">
-                        <asp:Button ID="Button3" class="btn btn-lg btn-block btn-warning" runat="server" Text="Update" />
+                        <asp:Button ID="Button3" class="btn btn-lg btn-block btn-warning" runat="server" Text="Update" OnClick="Button3_Click" />
                      </div>
                      <div class="col-4">
-                        <asp:Button ID="Button2" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete" />
+                        <asp:Button ID="Button2" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete" OnClick="Button2_Click" />
                             </div>
                         </div>
                     </div>
@@ -206,8 +224,9 @@
                      </div>
                   </div>
                   <div class="row">
+                      <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ElibraryDBConnectionString %>" SelectCommand="SELECT * FROM [book_master_tbl]"></asp:SqlDataSource>
                      <div class="col">
-                        <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server"></asp:GridView>
+                        <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server" DataSourceID="SqlDataSource1"></asp:GridView>
                      </div>
                   </div>
                </div>

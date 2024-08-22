@@ -76,12 +76,12 @@ namespace WebApplication1
 
         protected void LinkButton11_Click(object sender, EventArgs e)
         {
-            Response.Redirect("adminauthormanagement.aspx");
+            Response.Redirect("adminauthor.aspx");
         }
 
         protected void LinkButton12_Click(object sender, EventArgs e)
         {
-            Response.Redirect("adminpublishermanagement.aspx");
+            Response.Redirect("adminpublisher.aspx");
         }
 
         protected void LinkButton8_Click(object sender, EventArgs e)
@@ -96,7 +96,7 @@ namespace WebApplication1
 
         protected void LinkButton10_Click(object sender, EventArgs e)
         {
-            Response.Redirect("adminmembermanagement.aspx");
+            Response.Redirect("adminmember.aspx");
         }
 
         protected void LinkButton4_Click(object sender, EventArgs e)
