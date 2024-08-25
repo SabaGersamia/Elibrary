@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|g:\\sg\\project\\c#\\elibrary\\elibrarymanagment\\webapplication1\\userprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|solutionrelative:webapplication1\\userprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|g:\\sg\\project\\c#\\elibrary\\elibrarymanagment\\webapplication1\\usersignup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|solutionrelative:webapplication1\\usersignup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|g:\\sg\\project\\c#\\elibrary\\elibrarymanagment\\webapplication1\\userprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|solutionrelative:webapplication1\\userprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|g:\\sg\\project\\c#\\elibrary\\elibrarymanagment\\webapplication1\\userlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|solutionrelative:webapplication1\\userlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|g:\\sg\\project\\c#\\elibrary\\elibrarymanagment\\webapplication1\\bookissuing.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|solutionrelative:webapplication1\\bookissuing.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|g:\\sg\\project\\c#\\elibrary\\elibrarymanagment\\webapplication1\\userlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|solutionrelative:webapplication1\\userlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\webapplication1\\bookissuing.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|solutionrelative:webapplication1\\bookissuing.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\webapplication1\\viewbooks.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|solutionrelative:webapplication1\\viewbooks.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\webapplication1\\usersignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|solutionrelative:webapplication1\\usersignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37951FBB-44FC-4FFD-85BE-EB17256ACB10}|WebApplication1\\ElibraryManagment.csproj|G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\webapplication1\\adminbookinventory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,76 +34,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "userprofile.aspx",
-              "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\userprofile.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\userprofile.aspx",
-              "ToolTip": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\userprofile.aspx",
-              "RelativeToolTip": "WebApplication1\\userprofile.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-22T12:57:59.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "userprofile.aspx.cs",
-              "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\userprofile.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\userprofile.aspx.cs",
-              "ToolTip": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\userprofile.aspx.cs",
-              "RelativeToolTip": "WebApplication1\\userprofile.aspx.cs",
-              "ViewState": "AQIAAJsAAAAAAAAAAAAIwLYAAAAAAAAA",
+              "Title": "userlogin.aspx.cs",
+              "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\userlogin.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\userlogin.aspx.cs",
+              "ToolTip": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\userlogin.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\userlogin.aspx.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwFUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T12:57:13.488Z",
+              "WhenOpened": "2024-08-25T16:52:19.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "bookissuing.aspx.cs",
-              "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\bookissuing.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\bookissuing.aspx.cs",
-              "ToolTip": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\bookissuing.aspx.cs",
-              "RelativeToolTip": "WebApplication1\\bookissuing.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
+              "Title": "userlogin.aspx",
+              "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\userlogin.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\userlogin.aspx",
+              "ToolTip": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\userlogin.aspx",
+              "RelativeToolTip": "WebApplication1\\userlogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-25T16:52:14.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "usersignup.aspx.cs",
+              "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\usersignup.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\usersignup.aspx.cs",
+              "ToolTip": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\usersignup.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\usersignup.aspx.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowHUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T12:51:32.44Z",
+              "WhenOpened": "2024-08-22T13:14:51.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "bookissuing.aspx",
-              "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\bookissuing.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\bookissuing.aspx",
-              "ToolTip": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\bookissuing.aspx",
-              "RelativeToolTip": "WebApplication1\\bookissuing.aspx",
+              "Title": "usersignup.aspx",
+              "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\usersignup.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\usersignup.aspx",
+              "ToolTip": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\usersignup.aspx",
+              "RelativeToolTip": "WebApplication1\\usersignup.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-22T12:50:05.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T13:11:00.005Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "viewbooks.aspx",
-              "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\viewbooks.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\viewbooks.aspx",
-              "ToolTip": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\viewbooks.aspx",
-              "RelativeToolTip": "WebApplication1\\viewbooks.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-22T12:42:45.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "adminbookinventory.aspx.cs",
               "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\adminbookinventory.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\adminbookinventory.aspx.cs",
@@ -115,21 +97,18 @@
               "RelativeToolTip": "WebApplication1\\adminbookinventory.aspx.cs",
               "ViewState": "AQIAAOoAAAAAAAAAAAAUwAMBAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:03:53.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T09:03:53.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "adminbookinventory.aspx",
               "DocumentMoniker": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\adminbookinventory.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\adminbookinventory.aspx",
               "ToolTip": "G:\\SG\\Project\\C#\\Elibrary\\ElibraryManagment\\WebApplication1\\adminbookinventory.aspx",
               "RelativeToolTip": "WebApplication1\\adminbookinventory.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-22T09:00:33.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T09:00:33.096Z"
             }
           ]
         }

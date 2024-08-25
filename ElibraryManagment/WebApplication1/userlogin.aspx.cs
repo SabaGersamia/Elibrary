@@ -7,6 +7,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace WebApplication1
 {
@@ -30,19 +32,31 @@ namespace WebApplication1
                     con.Open();
 
                 }
-                SqlCommand cmd = new SqlCommand("select * from dbo.member_master_tbl where member_id='" + TextBox1.Text.Trim() + "' AND password='" + TextBox2.Text.Trim() + "'", con);
+                SqlCommand cmd = new SqlCommand("SELECT password, salt FROM dbo.member_master_tbl WHERE member_id=@member_id", con);
+                cmd.Parameters.AddWithValue("@member_id", TextBox1.Text.Trim());
                 SqlDataReader dr = cmd.ExecuteReader();
+
                 if (dr.HasRows)
                 {
-                    while (dr.Read())
+                    dr.Read();
+                    string storedHashedPassword = dr["password"].ToString();
+                    string storedSalt = dr["salt"].ToString();
+                    string enteredPasswordHash = ComputeSha256Hash(TextBox2.Text.Trim() + storedSalt);
+
+                    if (enteredPasswordHash == storedHashedPassword)
                     {
-                        Response.Write("<script>alert('Login Successful');</script>");
-                        Session["username"] = dr.GetValue(7).ToString();
-                        Session["fullname"] = dr.GetValue(0).ToString();
+                        Session["username"] = TextBox1.Text.Trim();
+                        Session["fullname"] = dr["full_name"].ToString(); 
                         Session["role"] = "user";
-                        Session["status"] = dr.GetValue(9).ToString();
+                        Session["status"] = dr["account_status"].ToString(); 
+
+                        Response.Redirect("homepage.aspx");
                     }
-                    Response.Redirect("homepage.aspx");
+                    else
+                    {
+                        // Invalid credentials
+                        Response.Write("<script>alert('Invalid credentials');</script>");
+                    }
                 }
                 else
                 {
@@ -53,6 +67,22 @@ namespace WebApplication1
             catch (Exception ex)
             {
                 Response.Write("<script>alert('" + ex.Message + "');</script>");
+            }
+        }
+
+        // Helper Method to Compute SHA-256
+        private string ComputeSha256Hash(string rawData)
+        {
+            using (SHA256 sha256Hash = SHA256.Create())
+            {
+                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(rawData));
+
+                StringBuilder builder = new StringBuilder();
+                for (int i = 0; i < bytes.Length; i++)
+                {
+                    builder.Append(bytes[i].ToString("x2"));
+                }
+                return builder.ToString();
             }
         }
     }
